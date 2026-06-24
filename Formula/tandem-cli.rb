@@ -1,25 +1,25 @@
 class TandemCli < Formula
   desc "Git-aware ticket coordination system for AI agents in a monorepo"
   homepage "https://github.com/mrclrchtr/tandem"
-  version "0.15.0"
+  version "0.16.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/mrclrchtr/tandem/releases/download/v0.15.0/tandem-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "b3dabacc6404984eaecda2076a0e9715a64a34b0f8386064585e94e0c73de1a0"
+      url "https://github.com/mrclrchtr/tandem/releases/download/v0.16.0/tandem-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "24619260a6596993ad5a77212c25ca85bb85c2f57bfc2ec9469fb906720b737c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mrclrchtr/tandem/releases/download/v0.15.0/tandem-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "2c244730b3793975f728ed065689beae301ebcbea45cefc1fedcfd2fc3e97ca5"
+      url "https://github.com/mrclrchtr/tandem/releases/download/v0.16.0/tandem-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "dce13578a14f72b22a0c91b1b552b9423b2c3b978929d9fa3d31ef8229498252"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/mrclrchtr/tandem/releases/download/v0.15.0/tandem-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "04633a7769791107a3e8ce6750175fa9e7cca2e4f11d896bf363e9d75b45b906"
+      url "https://github.com/mrclrchtr/tandem/releases/download/v0.16.0/tandem-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "18c405dd04d416bd878fe6c4ac69c1584b2d315d3f80c7c8a381c0fbb326cff4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mrclrchtr/tandem/releases/download/v0.15.0/tandem-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "c89eb677253d77f26276f4e88fd12f04144c0bb3e9530b5a3558ad13bf574c78"
+      url "https://github.com/mrclrchtr/tandem/releases/download/v0.16.0/tandem-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "2c210d026d4d23ee1a504b6bc4ae0b267adc8b56468b2c57df44cd9fad6d106d"
     end
   end
   license "Apache-2.0"
